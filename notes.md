@@ -1,6 +1,5 @@
 "Globals go against the grain of modularity" - Dave Herman
 
-
 ## ¡Warning!
 
 There's more than one way to do it.
