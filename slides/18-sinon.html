@@ -1,0 +1,23 @@
+<section>
+  <h2>Tests are what enforce the contract of dependencies</h2>
+<pre class="fragment"><code>describe('PlaylistView', function(){
+  it('should error if created without a collection', function(){
+    assert.throws(function(){
+      new PlaylistView();
+    }, /requires a collection/);
+  });
+});
+</code></pre>
+  <aside class="notes">I would rather have an application that **only**
+    tests that its dependencies exist and each constructor can properly
+    create an instance, than an app that re-tests methods from
+    Backbone, Underscore and jQuery</aside>
+</section>
+
+<section>
+  <h2>Testing</h2>
+  <h3>Use <a href="http://sinonjs.org" target="_blank">Sinon.js</a> for
+    spies and stubs</h3>
+
+  <h3 class=fragment>Seriously.</h3>
+</section>

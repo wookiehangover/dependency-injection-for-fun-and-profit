@@ -1,0 +1,45 @@
+[
+  "01-index.md",
+  "02-simple.html",
+  "03-abstract.html",
+  "03.1-not-java.html",
+  [
+    "04-simple-right.md",
+    "04.2-simple-right.md",
+    "04.3-simple-right.md",
+    "04.4-simple-right.html"
+  ],
+
+  "05-maintenance-costs.html",
+  [
+    "05-organization.html",
+    "05.1-constructors.md",
+    "05.2-instances.md",
+    "05.3-lets-use-globals.html"
+  ],
+
+  "07-single-namespace-blues.md",
+  "06.1-lets-not.html",
+  "06-lets-not.html",
+  "08-whats-wrong-with-that.md",
+  "09-modules-for-fun-and-profit.html",
+  "10-di-for-fun-and-profit.html",
+  "11-why-di.md",
+  "11.1-why-not-require.html",
+  "12-dependency-graphs.html",
+  "13-refactoring.md",
+  "14-patterns.md",
+  "15-application-view.md",
+  "15.1-application-view.md",
+  "16-circular-references.html",
+  "17-mixins.md",
+  "18-sinon.html",
+  "19-single-point-of-entry.html",
+  "20-solid.html",
+  "21-modules.html",
+
+  "00-components.html",
+
+  "bonus-initailize.md",
+  "end.html"
+]
